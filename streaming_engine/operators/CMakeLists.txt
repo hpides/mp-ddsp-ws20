@@ -1,0 +1,16 @@
+set(SOURCE_FILES
+        ${CMAKE_CURRENT_SOURCE_DIR}/Definitions.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/GeneratingOperator.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/ConsumingOperator.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/TransformingOperator.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/ConsoleInputOperator.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/ConsoleOutputOperator.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/FilterOperator.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/WindowOperator.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/MapOperator.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/HashJoinOperator.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/ConstantInputOperator.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/LambdaOutputOperator.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/TCPReceiveOperator.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/ParsingOperator.h
+        PARENT_SCOPE)

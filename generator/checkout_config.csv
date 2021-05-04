@@ -1,0 +1,2 @@
+purchase_id_range_first,purchase_id_range_second,ad_id_range_first,ad_id_range_second,user_id_range_first,user_id_range_second,value_range_first,value_range_second
+0,10000,0,1000,0,100,10,100

@@ -1,0 +1,15 @@
+Zeile 1-8: Testet, ob korrekte Ergebnisse ausgegeben werden, wenn noch nicht alle Slides gefüllt sind
+Zeile 1-2:  Testet eine einzige AdId im Window
+Zeile 1-2:  Testet, ob Kosten/Werte von durchgehend 0 funktionieren
+Zeile 3-4:  Testet, ob die gleiche adId über mehrere Windows erkannt wird
+Zeile 3-4:  Testet, ob neu hinzukommenede AdIds erkannt werden
+Zeile 3-4:  Testet, ob der revenue korrekt berechnet wird (positiv und negativ)
+Zeile 5-6:  Testet, ob die AdId=0 gefiltert wird und daraus folgend mit leeren Windows umgegangen werden kann
+Zeile 7-8:  Testet, ob nicht passende AdIds auch nicht gejoined werden
+Zeile 9-10: Testet, ob die Aggregation des Eventtimestamps funktionieren (max einmal linke, einmal rechte Seite) für neue AdIds
+Zeile 11-12:Testet, ob eine nicht mehr erscheinende AdId auch nicht im Output ist
+Zeile 11-12:Testet, ob die Aggregation des Eventtimestamps funktionieren (max einmal linke, einmal rechte Seite) für bestehende AdIds mit neuem oder gleichbleibenden Maximalwert
+Zeile 9-12: Testet, ob die Kosten/Werte korrekt addiert werden außerhalb des Slides
+Zeile 13-14:Testet, ob die Kosten/Werte korrekt addiert werden innerhalb des Slides
+Zeile 13-14:Testet, ob auch gebrochene Kosten/Werte funktionieren
+Zeile 14+:  Testet, ob korrekte Ergebnisse ausgegeben werden, wenn noch nicht mehr alle Slides gefüllt sind (nur im Output)

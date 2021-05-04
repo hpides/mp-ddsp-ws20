@@ -1,0 +1,18 @@
+# Ignore local build files from CLion and build directory
+*/cmake-build-*/
+*/build/
+venv/
+
+# Ignore executable
+jeyhun_benchmark/generator
+
+# Ignore local Idea Config Files
+.idea/
+
+# Ignore MacOS specific files
+*.DS_Store
+
+# Ignore openmpi-related stuff
+openmpi
+openmpi-4.1.0
+openmpi-4.1.0.tar.gz

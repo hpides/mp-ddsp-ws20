@@ -1,0 +1,10 @@
+# Ignore local build files from CLion and build directory
+*/cmake-build-debug/
+*/cmake-build-release/
+*/build/
+
+# Ignore local Idea Config Files
+*/.idea/
+
+# Ignore MacOS specific files
+*.DS_Store

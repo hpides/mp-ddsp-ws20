@@ -1,0 +1,15 @@
+set(OPERATOR_SOURCE_FILES
+        ${CMAKE_CURRENT_SOURCE_DIR}/Operator.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/ConsoleInput.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/ConsoleOutput.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Filter.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Parse.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/TCPReceiver.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Aggregation.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/ProcessingTimeSlidingWindow.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/HashJoin.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Append.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Append.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/Combine.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Combine.h
+        PARENT_SCOPE)
